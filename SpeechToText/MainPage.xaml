@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="SpeechToText.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Label
+            x:Name="Speechtext"
+            Padding="30,0"
+            FontSize="16" />
+        <Button
+            x:Name="Micbutton"
+            Margin="20,0"
+            Clicked="Button_Clicked"
+            IsEnabled="True"
+            Text="Tap Me!" />
+        <Label
+            Padding="30,0"
+            FontSize="16"
+            Text="Tap the Button and say something!" />
+    </StackLayout>
+</ContentPage>
