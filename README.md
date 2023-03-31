@@ -6,6 +6,5 @@ Easy implimentation of Androids Speech Recognition system
 
 Good for Android 8 > 13
 
-======================
 All hail the App Gods!
 
