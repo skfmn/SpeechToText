@@ -34,7 +34,7 @@ namespace SpeechToText.Droid
             voiceIntent.PutExtra(RecognizerIntent.ExtraLanguageModel, RecognizerIntent.LanguageModelFreeForm);
             voiceIntent.PutExtra(RecognizerIntent.ExtraPrompt, "Speek Now!\nSpeak Clearly!");
             voiceIntent.PutExtra(RecognizerIntent.ExtraSpeechInputCompleteSilenceLengthMillis, 1500);         // If silent for 1.5 seconds assume they are done talking
-            voiceIntent.PutExtra(RecognizerIntent.ExtraSpeechInputPossiblyCompleteSilenceLengthMillis, 1500); // If silent for 1.5 seconds assume they are done talking
+            voiceIntent.PutExtra(RecognizerIntent.ExtraSpeechInputPossiblyCompleteSilenceLengthMillis, 1500); // If possible silence for 1.5 seconds assume they are done talking
             voiceIntent.PutExtra(RecognizerIntent.ExtraSpeechInputMinimumLengthMillis, 15000);                // Wait 15 seconds for intial input 
             voiceIntent.PutExtra(RecognizerIntent.ExtraMaxResults, 1);
 
