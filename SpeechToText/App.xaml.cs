@@ -8,6 +8,7 @@ namespace SpeechToText
         {
             InitializeComponent();
 
+            //The ISpeechToText interface is located in Settings.cs in the shared project
             DependencyService.Get<ISpeechToText>().Initialize();
 
             MainPage = new MainPage();
